@@ -32,7 +32,7 @@ const User = mongoose.model("User", userSchema)
 
 
 /////////////// Routes ///////////////
-
+ 
 // Home
 app.get("/", (req, res) => {
     res.render("home.ejs")
@@ -42,7 +42,7 @@ app.get("/", (req, res) => {
 app.get("/login", (req, res) => {
     res.render("login.ejs")
 })
- 
+
 // Render register page
 app.get("/register", (req, res) => {
     res.render("register.ejs")
